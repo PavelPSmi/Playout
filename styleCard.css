@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.offerBlock {
+    height: 148px;
+    background: #F8F3F4;
+}
+.offerBlock_h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding-top: 59px;
+    padding-left: 230px;
+}
+.cardShop {
+    width: 652px;
+    height: 306px;
+    filter:drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.cardShop:first-child {
+    margin-top: 0;
+}
+.cardShop_H3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-top: 22px;
+    margin-bottom: 42px;
+}
+.cardMain {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.priceSale {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.priceSale span {
+    color: #EF5B70;
+}
+.colorSale {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+.sizeSale {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.quantity {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+.quantity input {
+    width: 44px;
+    height: 25px;
+    border: 1px solid #EAEAEA;
+    margin-left: 25px;
+    text-align: center;
+    color: #656565;
+}
+.cardShop div {
+    margin-right: 55px;
+}
+.cross {
+    width: 18px;
+    height: 18px;
+    margin-top: 28px;
+    margin-right: 22px;
+}
+/*buttonPrice*/
+.buttonPrice {
+    width: 652px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.clearShopping, .continueShopping {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: 1px solid #A4A4A4;
+    padding: 17px 40px 16px 40px;
+    background: white;
+}
+.clearShopping:hover {
+    color: white;
+    background: #A4A4A4;
+}
+.continueShopping:hover {
+    color: white;
+    background: #A4A4A4;
+}
+.cardRight_country {
+    margin-top: 17px;
+    width: 360px;
+    height: 272px;
+}
+.cardRight_country input {
+    width: 360px;
+    height: 45px;
+    border: 1px solid #A4A4A4;
+    padding-left: 17px;
+    margin-top: 20px;
+}
+.cardRight_country button {
+    margin-top: 23px;
+    padding: 11px 15px 10px 15px;
+    border: 1px solid #A4A4A4;
+    color: #4A4A4A;
+    background-color: white;
+}
+.cardRight_country button:hover {
+    background-color: #4A4A4A;
+    color: white;
+}
+@media (max-width: 769px) {
+    .offerBlock_h3 {
+        padding-left: 16px;
+    }
+}
+@media (max-width: 376px) {
+    .offerBlock_h3 {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    }
+}
