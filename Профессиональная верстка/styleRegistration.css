@@ -1,0 +1,134 @@
+.Registration_full__all_info {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+.Registration_left__info {
+    max-width: 575px;
+}
+.Registration_left__info__form input {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    width: 340px;
+    height: 45px;
+    padding-left: 17px;
+    margin-top: 20px;
+}
+.Registration_left__info__form label {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.Registration_left__gender {
+    margin-top: 31px;
+    margin-bottom: 33px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+.Registration_left__gender input{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.Registration_left__gender input:nth-child(1) {
+    margin-left: 0;
+}
+.Registration_left__gender input:nth-child(3) {
+    display: none;
+}
+.Registration_left__gender__other {
+    display: none;
+}
+.Registration_left__info__form p {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.Registration_left__info__button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background-color: #F16D7F;
+    padding: 16px 29px 17px 29px;
+    border: none;
+    margin-top: 39px;
+}
+.Registration_left__info__button img {
+    padding-left: 20px;
+}
+/*registration right part*/
+.Registration_right__info {
+    margin-left: 128px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.All_info__Perks p {
+    margin-bottom: 22px;
+}
+.previlegy {
+    list-style-type: none;
+}
+.previlegy li {
+    margin-bottom: 16px;
+    background: url(img_registration/Vector.svg) no-repeat 0 7px;
+    padding-left: 42px;
+}
+@media (max-width: 769px) {
+    .Registration_full__all_info {
+        margin-top: 40px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .Registration_right__info {
+        margin-left: 0;
+    }
+    .All_info__Perks {
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 20px;
+    }
+    .previlegy li {
+        background: url(img_registration/Vector.svg) no-repeat 0 3px;
+    }
+    .Registration_left__gender input:nth-child(3) {
+        display:inline;
+    }
+    .Registration_left__gender__other {
+        display: contents;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+    }
+}
+@media (max-width: 376px) {
+    .Registration_full__all_info {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .Registration_left__info__button {
+        margin-bottom: 40px;
+    }
+    .All_info__Perks {
+        margin-left: 0;
+    }
+}
+
